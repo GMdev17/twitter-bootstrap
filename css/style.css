@@ -1,0 +1,27 @@
+li {
+    cursor: pointer;
+}
+li span:hover {
+    border-radius: 5px 5px 5px 5px;
+    background-color: white;
+    color: black!important;
+    transition: .8s;
+}
+li span {
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+#heading a {
+    text-decoration: none;
+}
+@media (max-width:768px) {
+    #sushi {
+        margin-top: 25px;
+    }
+}
+@media (min-width: 249px) and (max-width: 575px){
+    #beef {
+        margin-top: 25px;
+    }
+}
